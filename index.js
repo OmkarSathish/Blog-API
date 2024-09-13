@@ -3,7 +3,7 @@ import chalk from "chalk";
 import morgan from "morgan";
 import express from "express";
 import cookieParser from "cookie-parser";
-
+// random comment
 import apiRouter from "./routes/index.js";
 import connectDB from "./models/dbConfig.js";
 
