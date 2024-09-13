@@ -23,4 +23,4 @@ jobs:
           touch .env
           echo "${{ secrets.PROD_ENV_FILE }}" > .env
       - run: npm run start
-      - run: pm2 restart APIv1
+      # - run: pm2 restart APIv1
